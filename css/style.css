@@ -1,31 +1,4 @@
 /* Stylesheet by Kristina V. Randrup, 2021 */
-/***** NAVBAR *****/
-.navbar-default {
-  background-color: #863ee3;
-  border-radius: 0;
-  background-image: none;
-}
-
-/* Navbar title */
-.navbar-default .navbar-brand {
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
-
-/* Navbar hover effects */
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-    color: #ebd122;
-}
-
-/* Navbar links */
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-size: 16px;
-}
 
 body {
   padding-top: 15px;
@@ -88,3 +61,39 @@ div.leaflet-popup-content p {
     text-align: center;
     border: solid gray 1px;
 }
+
+.menu-ui {
+  background:#fff;
+  position:absolute;
+  top:150px;right:100px;
+  z-index:1;
+  border-radius:3px;
+  width:120px;
+  border:1px solid rgba(0,0,0,0.4);
+  }
+  .menu-ui a {
+    font-size:13px;
+    color:#404040;
+    display:block;
+    margin:0;padding:0;
+    padding:10px;
+    text-decoration:none;
+    border-bottom:1px solid rgba(0,0,0,0.25);
+    text-align:center;
+    }
+    .menu-ui a:first-child {
+      border-radius:3px 3px 0 0;
+      }
+    .menu-ui a:last-child {
+      border:none;
+      border-radius:0 0 3px 3px;
+      }
+    .menu-ui a:hover {
+      background:#f8f8f8;
+      color:#404040;
+      }
+    .menu-ui a.active,
+    .menu-ui a.active:hover {
+      background:#3887BE;
+      color:#FFF;
+      }

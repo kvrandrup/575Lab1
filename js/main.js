@@ -1,4 +1,5 @@
 /*WA cities data and map*/
+
 //function to instantiate the Leaflet map
 function createMap(){
     //create the map
@@ -94,7 +95,7 @@ function createSequenceControls(mymap, attributes){
     $('#panel').append('<input class="range-slider" type="range">');
     //set slider attributes
     $('.range-slider').attr({
-        max: 7,
+        max: 9,
         min: 0,
         value: 0,
         step: 1
@@ -111,11 +112,11 @@ function createSequenceControls(mymap, attributes){
         if ($(this).attr('id') == 'forward'){
             index++;
             //if past the last attribute, wrap around to first attribute
-            index = index > 7 ? 0 : index;
+            index = index > 9 ? 0 : index;
         } else if ($(this).attr('id') == 'reverse'){
             index--;
             //if past the first attribute, wrap around to last attribute
-            index = index < 0 ? 7 : index;
+            index = index < 0 ? 9 : index;
         };
         //update slider
         $('.range-slider').val(index);
@@ -223,6 +224,20 @@ function createLegend(mymap, attributes){
     mymap.addControl(new LegendControl());
     updateLegend(mymap, attributes[0]);
 };
+
+//function for clicking with marker
+$('.menu-ui a').on('click', function() {
+    // For each filter link, get the 'data-filter' attribute value.
+    var filter = $(this).data('filter');
+    $(this).addClass('active').siblings().removeClass('active');
+    markers.setFilter(function(f) {
+        // If the data-filter attribute is set to "all", return
+        // all (true). Otherwise, filter on markers that have
+        // a value set to true based on the filter name.
+        return (filter === 'all') ? true : f.properties[filter] === true;
+    });
+    return false;
+});
 
 //function to convert markers to circle markers
 function pointToLayer(feature, latlng, attributes){

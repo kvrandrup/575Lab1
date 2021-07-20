@@ -14,7 +14,11 @@
 	    "pop2017": 724745, 
 	    "pop2018": 744955, 
 	    "pop2019": 753675, 
-	    "pop2021": 776555
+	    "pop2021": 776555, 
+	    "pop2030": 867610, 
+	    "pop2050": 1069956,
+	    "popgreater100k": true, 
+	    "popgreater500k": true
           }
         },
       { "type": "Feature",
@@ -31,7 +35,11 @@
 	    "pop2017": 217108,
 	    "pop2018": 219190, 
 	    "pop2019": 222081, 
-	    "pop2021": 227579
+	    "pop2021": 227579, 
+	    "pop2030": 240719, 
+	    "pop2050": 269921, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -48,7 +56,11 @@
 	    "pop2017": 213418,
 	    "pop2018": 216279,
 	    "pop2019": 217827, 
-	    "pop2021": 221259
+	    "pop2021": 221259, 
+	    "pop2030": 232993, 
+	    "pop2050": 259070, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -65,7 +77,11 @@
 	    "pop2017": 175673, 
 	    "pop2018": 183012,
 	    "pop2019": 184463, 
-	    "pop2021": 187615
+	    "pop2021": 187615, 
+	    "pop2030": 205204, 
+	    "pop2050": 244290, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -82,7 +98,11 @@
 	    "pop2017": 144444,
 	    "pop2018": 147599, 
 	    "pop2019": 148164, 
-	    "pop2021": 150364
+	    "pop2021": 150364, 
+	    "pop2030": 166600, 
+	    "pop2050": 202680, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -99,8 +119,13 @@
 	    "pop2017": 128458,
 	    "pop2018": 129618, 
 	    "pop2019": 132319, 
-	    "pop2021": 133489
-          }        },
+	    "pop2021": 133489, 
+	    "pop2030": 156151, 
+	    "pop2050": 206513, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
+          } 
+       },
       { "type": "Feature",
         "geometry": {
           "type": "Point",
@@ -115,7 +140,11 @@
 	    "pop2017": 110079,
 	    "pop2018": 111262, 
 	    "pop2019": 111475, 
-	    "pop2021": 112249
+	    "pop2021": 112249, 
+	    "pop2030": 119086, 
+	    "pop2050": 134282, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -132,7 +161,11 @@
 	    "pop2017": 101379,
 	    "pop2018": 102153, 
 	    "pop2019": 101751, 
-	    "pop2021": 101679
+	    "pop2021": 101679, 
+	    "pop2030": 123190, 
+	    "pop2050": 170994, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -149,7 +182,11 @@
 	    "pop2017": 97847,
 	    "pop2018": 99703, 
 	    "pop2019": 101060, 
-	    "pop2021": 104564
+	    "pop2021": 104564, 
+	    "pop2030": 114719, 
+	    "pop2050": 137285, 
+	    "popgreater100k": true, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -166,7 +203,11 @@
 	    "pop2017": 96690,
 	    "pop2018": 97044, 
 	    "pop2019": 96289, 
-	    "pop2021": 95415
+	    "pop2021": 95415, 
+	    "pop2030": 99804, 
+	    "pop2050": 109558, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -183,7 +224,11 @@
 	    "pop2017": 93667,
 	    "pop2018": 93884, 
 	    "pop2019": 93637, 
-	    "pop2021": 93815
+	    "pop2021": 93815, 
+	    "pop2030": 98249, 
+	    "pop2050": 108102, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -200,7 +245,11 @@
 	    "pop2017": 88630,
 	    "pop2018": 89557, 
 	    "pop2019": 93010, 
-	    "pop2021": 99212
+	    "pop2021": 99212, 
+	    "pop2030": 122434, 
+	    "pop2050": 174040, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -217,7 +266,11 @@
 	    "pop2017": 89045,
 	    "pop2018": 90665, 
 	    "pop2019": 92314, 
-	    "pop2021": 96014
+	    "pop2021": 96014, 
+	    "pop2030": 108098, 
+	    "pop2050": 134952, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -234,7 +287,11 @@
 	    "pop2017": 81607,
 	    "pop2018": 82943, 
 	    "pop2019": 84347, 
-	    "pop2021": 87649
+	    "pop2021": 87649, 
+	    "pop2030": 99745, 
+	    "pop2050": 126626, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -251,7 +308,11 @@
 	    "pop2017": 64291,
 	    "pop2018": 67678, 
 	    "pop2019": 71929, 
-	    "pop2021": 80915
+	    "pop2021": 80915, 
+	    "pop2030": 96033, 
+	    "pop2050": 129630, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
         },
       { "type": "Feature",
@@ -268,7 +329,11 @@
 	    "pop2017": 80776,
 	    "pop2018": 81905, 
 	    "pop2019": 81464, 
-	    "pop2021": 80814
+	    "pop2021": 80814, 
+	    "pop2030": 91674, 
+	    "pop2050": 115810, 
+	    "popgreater100k": false, 
+	    "popgreater500k": false
           }
          }
        ]
